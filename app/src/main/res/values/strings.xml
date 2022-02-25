@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">LengthConverter</string>
+    <string name="app_name">Проверка знаний</string>
+    <string name="title">Переводчик единиц длины</string>
+    <string name="km">километров</string>
+    <string name="m">метров</string>
+    <string name="dm">дециметров</string>
+    <string name="sm">сантиметров</string>
+    <string name="mm">миллиметров</string>
+    <string name="inspect">Проверить</string>
+
+    <string name="in_km">в км</string>
+    <string name="in_m">в м</string>
+    <string name="in_dm">в дм</string>
+    <string name="in_sm">в см</string>
+    <string name="in_mm">в мм</string>
 </resources>
