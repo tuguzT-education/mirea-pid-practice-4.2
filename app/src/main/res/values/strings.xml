@@ -8,6 +8,9 @@
     <string name="mm">миллиметров</string>
     <string name="inspect">Проверить</string>
 
+    <string name="good">Отлично!</string>
+    <string name="bad">Повторите материал, ответ неверный!</string>
+
     <string name="in_km">в км</string>
     <string name="in_m">в м</string>
     <string name="in_dm">в дм</string>
