@@ -7,7 +7,6 @@ import android.widget.EditText
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.content.res.AppCompatResources
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,16 +25,14 @@ class MainActivity : AppCompatActivity() {
 
         inspectButton.setOnClickListener {
             fun good() {
-                val drawable = AppCompatResources.getDrawable(this, R.drawable.cool)
-                answerImageView.setImageDrawable(drawable)
+                answerImageView.setImageResource(R.drawable.cool)
 
                 resultTextView.text = getString(R.string.good)
                 resultTextView.setTextColor(Color.BLUE)
             }
 
             fun bad() {
-                val drawable = AppCompatResources.getDrawable(this, R.drawable.bad)
-                answerImageView.setImageDrawable(drawable)
+                answerImageView.setImageResource(R.drawable.bad)
 
                 resultTextView.text = getString(R.string.bad)
                 resultTextView.setTextColor(Color.RED)
